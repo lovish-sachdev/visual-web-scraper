@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name" : "visual web scrapper",
+    "version" : "1.0.0",
+    "description": "this is a no code visual web scrapper",
+    "icons" : {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions":["tabs","storage"],
+    
+    "content_scripts":[
+        {
+            "js":["scripts/content.js"],
+            "css" : ["scripts/content.css"],
+            "matches":[
+                "*://*/*"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["scripts/index.html"],
+          "matches": ["<all_urls>"]
+        }
+      ],
+      "background": {
+        "service_worker": "scripts/background.js"
+      }
+
+}

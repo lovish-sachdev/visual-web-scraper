@@ -1,0 +1,1 @@
+{"name":"Local: new","url":"c:\\Users\\07032\\github_projects\\faiyaz\\lavi_extension\\webextension\\scripts\\new.py","tests":[{"id":1726255636275,"input":"5\n1 2\n1 3\n3 4\n3 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\07032\\github_projects\\faiyaz\\lavi_extension\\webextension\\scripts\\new.py","group":"local","local":true}
